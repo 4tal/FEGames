@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Normal</title>
+    <title>Features</title>
 
     <script src="Boot.js"></script>
     <link rel="stylesheet" href="Boot.css">
@@ -20,7 +20,6 @@
         <div id="cooll" class="collapse">
             Lorem ipsum dolor text....
         </div>
-
         <a href="#">Services</a>
         <a href="#">Clients</a>
         <a href="#">Contact</a>
@@ -30,7 +29,7 @@
     <button type="button" class="btn btn-dark" onclick="openNav()"><strong>Menu</strong></button>
     <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
     <div id="main">
-        <div class="jumbotron" style="background-color: brown; margin-bottom:0%;" >
+        <div class="jumbotron" style="background-color: #4ea5a2; margin-bottom:0%;" >
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-4">
                     <h1 class="display-4">Hello, world!</h1>
@@ -53,7 +52,6 @@
                 </div>
             </div>
 
-
             <div class="row" style="margin-top:10%">
                 <div class="col-lg-4 col-lg-offset-4">
                     <iframe width="460" height="360"
@@ -61,22 +59,22 @@
                     </iframe>
                 </div>
             </div>
-        </div>
 
-        <input type="button" onclick="hey()" value="D">
-        <input type="button" onclick="getLocation()" value="GetLocation">
+            <div class="row" style="margin-top:10%">
+                <div class="col-lg-2 col-lg-offset-4">
+                    <button type="button" onclick="getLocation()" class="btn-md btn-primary">Get GPS Location</button>
+                </div>
+                <div class="col-lg-2">
+                    <input type="text" class="form-lg form-control" id="gresult" value="">
+                </div>
+            </div>
+        </div>
 
         <div class="alert alert-danger" role="alert">
             <strong>A simple primary aleffrt—check it out!</strong>
 
         </div>
     </div>
-
-
-
-
-
-
 
 
 </body>
